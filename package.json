@@ -2,7 +2,7 @@
   "name": "leetcode",
   "version": "1.0.0",
   "description": "",
-  "main": "iterative_IsPalindrone.js",
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
