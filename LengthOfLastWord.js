@@ -3,7 +3,7 @@ const lengthOfLastWord = (givenString) =>{
     const  lastSpaceIndex =givenString.lastIndexOf(" "); 
     const lastWord=givenString.substring(lastSpaceIndex+1);
      /* we added +1 because there is a the lastIndexOf returns the " " charecter as well 
-      another option will be to get the substing and trom it*/
+      another option will be to get the substing and trim it*/
     return lastWord.length;
 };
 /*2nd Implementation */
