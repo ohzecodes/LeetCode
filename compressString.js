@@ -85,9 +85,6 @@ var compress = (givenCharArray) => {
  */
 const deepcopyBtoA = (source, destination) => {
   destination.splice(0,destination.length)
- source.forEach((e) => {
-  destination.push(e)
- });
+ source.forEach((e) => destination.push(e));
   return destination;
 };
-
