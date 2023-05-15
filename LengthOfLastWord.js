@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/length-of-last-word/
 const lengthOfLastWord = (givenString) =>{
     givenString=givenString.trim();
     const  lastSpaceIndex =givenString.lastIndexOf(" "); 
