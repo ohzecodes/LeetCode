@@ -18,5 +18,5 @@ function isPangram(givenString) {
   const uniqueCodes = [...new Set(finalStringArr)].sort();
   return uniqueCodes.length === 26;
 }
-console.log(isPangram("When zombies arrive quickly fax judge pat")); //true
+console.log(isPangram("When zombies arrive, quickly fax judge pat")); //true
 console.log(isPangram("A quick brown fox jumps over the lazy dog")); //true
